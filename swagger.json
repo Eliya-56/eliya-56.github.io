@@ -311,44 +311,6 @@
         }
       }
     },
-    "/api/assets/data-source": {
-      "get": {
-        "tags": [
-          "Assets"
-        ],
-        "parameters": [
-          {
-            "name": "request",
-            "in": "query",
-            "schema": {
-              "$ref": "#/components/schemas/Kendo.DataSourceRequest"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Kendo.DataSourceResult"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Kendo.DataSourceResult"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Kendo.DataSourceResult"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
     "/api/assets/{id}": {
       "get": {
         "tags": [
@@ -541,44 +503,6 @@
                   "items": {
                     "$ref": "#/components/schemas/Aecom.SurveyReportExtractDto"
                   }
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/api/surveyreports/data-source": {
-      "get": {
-        "tags": [
-          "SurveyReports"
-        ],
-        "parameters": [
-          {
-            "name": "request",
-            "in": "query",
-            "schema": {
-              "$ref": "#/components/schemas/Kendo.DataSourceRequest"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Kendo.DataSourceResult"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Kendo.DataSourceResult"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Kendo.DataSourceResult"
                 }
               }
             }
@@ -1148,35 +1072,6 @@
         }
       }
     },
-    "/api/surveyresults/grid-filters": {
-      "get": {
-        "tags": [
-          "SurveyResults"
-        ],
-        "responses": {
-          "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Aecom.SurveyResultGridFiltersDto"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Aecom.SurveyResultGridFiltersDto"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Aecom.SurveyResultGridFiltersDto"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
     "/api/surveyresults/bulk-delete": {
       "post": {
         "tags": [
@@ -1216,44 +1111,6 @@
         "responses": {
           "200": {
             "description": "Success"
-          }
-        }
-      }
-    },
-    "/api/surveyresults/data-source": {
-      "get": {
-        "tags": [
-          "SurveyResults"
-        ],
-        "parameters": [
-          {
-            "name": "request",
-            "in": "query",
-            "schema": {
-              "$ref": "#/components/schemas/Kendo.DataSourceRequest"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Kendo.DataSourceResult"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Kendo.DataSourceResult"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Kendo.DataSourceResult"
-                }
-              }
-            }
           }
         }
       }
