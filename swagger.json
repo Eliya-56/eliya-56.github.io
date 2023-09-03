@@ -24,17 +24,7 @@
           "200": {
             "description": "Success",
             "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Aecom.AssetDto"
-                }
-              },
               "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Aecom.AssetDto"
-                }
-              },
-              "text/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Aecom.AssetDto"
                 }
@@ -73,17 +63,7 @@
           "200": {
             "description": "Success",
             "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Aecom.AssetImportDto"
-                }
-              },
               "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Aecom.AssetImportDto"
-                }
-              },
-              "text/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Aecom.AssetImportDto"
                 }
@@ -113,23 +93,7 @@
           "200": {
             "description": "Success",
             "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Aecom.AttachmentDto"
-                  }
-                }
-              },
               "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Aecom.AttachmentDto"
-                  }
-                }
-              },
-              "text/json": {
                 "schema": {
                   "type": "array",
                   "items": {
@@ -150,24 +114,6 @@
         "requestBody": {
           "content": {
             "application/json": {
-              "schema": {
-                "type": "array",
-                "items": {
-                  "type": "string",
-                  "format": "uuid"
-                }
-              }
-            },
-            "text/json": {
-              "schema": {
-                "type": "array",
-                "items": {
-                  "type": "string",
-                  "format": "uuid"
-                }
-              }
-            },
-            "application/*+json": {
               "schema": {
                 "type": "array",
                 "items": {
@@ -225,17 +171,7 @@
           "200": {
             "description": "Success",
             "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Aecom.AttachmentDto"
-                }
-              },
               "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Aecom.AttachmentDto"
-                }
-              },
-              "text/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Aecom.AttachmentDto"
                 }
@@ -265,19 +201,7 @@
           "200": {
             "description": "Success",
             "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "string",
-                  "format": "binary"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "string",
-                  "format": "binary"
-                }
-              },
-              "text/json": {
+              "multipart/form-data": {
                 "schema": {
                   "type": "string",
                   "format": "binary"
@@ -349,17 +273,7 @@
           "200": {
             "description": "Success",
             "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Abp.AssetDtoPagedResultDto"
-                }
-              },
               "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Abp.AssetDtoPagedResultDto"
-                }
-              },
-              "text/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Abp.AssetDtoPagedResultDto"
                 }
@@ -378,16 +292,6 @@
               "schema": {
                 "$ref": "#/components/schemas/Aecom.AssetCreateUpdateDto"
               }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Aecom.AssetCreateUpdateDto"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/Aecom.AssetCreateUpdateDto"
-              }
             }
           }
         },
@@ -395,17 +299,7 @@
           "200": {
             "description": "Success",
             "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Aecom.AssetDto"
-                }
-              },
               "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Aecom.AssetDto"
-                }
-              },
-              "text/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Aecom.AssetDto"
                 }
@@ -435,17 +329,7 @@
           "200": {
             "description": "Success",
             "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Aecom.AssetDto"
-                }
-              },
               "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Aecom.AssetDto"
-                }
-              },
-              "text/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Aecom.AssetDto"
                 }
@@ -475,16 +359,6 @@
               "schema": {
                 "$ref": "#/components/schemas/Aecom.AssetCreateUpdateDto"
               }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Aecom.AssetCreateUpdateDto"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/Aecom.AssetCreateUpdateDto"
-              }
             }
           }
         },
@@ -492,17 +366,7 @@
           "200": {
             "description": "Success",
             "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Aecom.AssetDto"
-                }
-              },
               "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Aecom.AssetDto"
-                }
-              },
-              "text/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Aecom.AssetDto"
                 }
@@ -571,17 +435,7 @@
           "200": {
             "description": "Success",
             "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Abp.SurveyReportDtoPagedResultDto"
-                }
-              },
               "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Abp.SurveyReportDtoPagedResultDto"
-                }
-              },
-              "text/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Abp.SurveyReportDtoPagedResultDto"
                 }
@@ -600,16 +454,6 @@
               "schema": {
                 "$ref": "#/components/schemas/Aecom.SurveyReportCreateDto"
               }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Aecom.SurveyReportCreateDto"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/Aecom.SurveyReportCreateDto"
-              }
             }
           }
         },
@@ -617,17 +461,7 @@
           "200": {
             "description": "Success",
             "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Aecom.SurveyReportDto"
-                }
-              },
               "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Aecom.SurveyReportDto"
-                }
-              },
-              "text/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Aecom.SurveyReportDto"
                 }
@@ -657,17 +491,7 @@
           "200": {
             "description": "Success",
             "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Aecom.SurveyReportDto"
-                }
-              },
               "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Aecom.SurveyReportDto"
-                }
-              },
-              "text/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Aecom.SurveyReportDto"
                 }
@@ -697,16 +521,6 @@
               "schema": {
                 "$ref": "#/components/schemas/Aecom.SurveyReportUpdateDto"
               }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Aecom.SurveyReportUpdateDto"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/Aecom.SurveyReportUpdateDto"
-              }
             }
           }
         },
@@ -714,17 +528,7 @@
           "200": {
             "description": "Success",
             "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Aecom.SurveyReportDto"
-                }
-              },
               "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Aecom.SurveyReportDto"
-                }
-              },
-              "text/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Aecom.SurveyReportDto"
                 }
@@ -775,17 +579,7 @@
           "200": {
             "description": "Success",
             "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Aecom.SurveyResultDto"
-                }
-              },
               "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Aecom.SurveyResultDto"
-                }
-              },
-              "text/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Aecom.SurveyResultDto"
                 }
@@ -815,16 +609,6 @@
               "schema": {
                 "$ref": "#/components/schemas/Aecom.SurveyResultUpdateDto"
               }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Aecom.SurveyResultUpdateDto"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/Aecom.SurveyResultUpdateDto"
-              }
             }
           }
         },
@@ -832,17 +616,7 @@
           "200": {
             "description": "Success",
             "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Aecom.SurveyResultDto"
-                }
-              },
               "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Aecom.SurveyResultDto"
-                }
-              },
-              "text/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Aecom.SurveyResultDto"
                 }
@@ -903,32 +677,6 @@
                 "type": "integer",
                 "format": "int32"
               }
-            },
-            "text/json": {
-              "schema": {
-                "enum": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  -1
-                ],
-                "type": "integer",
-                "format": "int32"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "enum": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  -1
-                ],
-                "type": "integer",
-                "format": "int32"
-              }
             }
           }
         },
@@ -936,17 +684,7 @@
           "200": {
             "description": "Success",
             "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Aecom.SurveyResultGridDto"
-                }
-              },
               "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Aecom.SurveyResultGridDto"
-                }
-              },
-              "text/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Aecom.SurveyResultGridDto"
                 }
@@ -988,36 +726,6 @@
                 "type": "integer",
                 "format": "int32"
               }
-            },
-            "text/json": {
-              "schema": {
-                "enum": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6
-                ],
-                "type": "integer",
-                "format": "int32"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "enum": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6
-                ],
-                "type": "integer",
-                "format": "int32"
-              }
             }
           }
         },
@@ -1025,17 +733,7 @@
           "200": {
             "description": "Success",
             "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Aecom.SurveyResultGridDto"
-                }
-              },
               "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Aecom.SurveyResultGridDto"
-                }
-              },
-              "text/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Aecom.SurveyResultGridDto"
                 }
@@ -1073,17 +771,7 @@
           "200": {
             "description": "Success",
             "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Aecom.SurveyResultGridDto"
-                }
-              },
               "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Aecom.SurveyResultGridDto"
-                }
-              },
-              "text/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Aecom.SurveyResultGridDto"
                 }
@@ -1101,24 +789,6 @@
         "requestBody": {
           "content": {
             "application/json": {
-              "schema": {
-                "type": "array",
-                "items": {
-                  "type": "string",
-                  "format": "uuid"
-                }
-              }
-            },
-            "text/json": {
-              "schema": {
-                "type": "array",
-                "items": {
-                  "type": "string",
-                  "format": "uuid"
-                }
-              }
-            },
-            "application/*+json": {
               "schema": {
                 "type": "array",
                 "items": {
@@ -1174,17 +844,7 @@
           "200": {
             "description": "Success",
             "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Abp.SurveyResultDtoPagedResultDto"
-                }
-              },
               "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Abp.SurveyResultDtoPagedResultDto"
-                }
-              },
-              "text/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Abp.SurveyResultDtoPagedResultDto"
                 }
@@ -1203,16 +863,6 @@
               "schema": {
                 "$ref": "#/components/schemas/Aecom.SurveyResultCreateDto"
               }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Aecom.SurveyResultCreateDto"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/Aecom.SurveyResultCreateDto"
-              }
             }
           }
         },
@@ -1220,17 +870,7 @@
           "200": {
             "description": "Success",
             "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Aecom.SurveyResultDto"
-                }
-              },
               "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Aecom.SurveyResultDto"
-                }
-              },
-              "text/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Aecom.SurveyResultDto"
                 }
